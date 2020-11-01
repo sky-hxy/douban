@@ -11,7 +11,28 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://api.douban.com/v2/music/search?q=欧美&count=15?",
+					"protocol": "https",
+					"host": [
+						"api",
+						"douban",
+						"com"
+					],
+					"path": [
+						"v2",
+						"music",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "欧美"
+						},
+						{
+							"key": "count",
+							"value": "15?"
+						}
+					]
 				}
 			},
 			"response": []
